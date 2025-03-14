@@ -30,7 +30,7 @@ const Links = () => {
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
-                    href="https://chat.whatsapp.com/JKXDuqzPU0x4NgmZX4slrN">
+                    href="https://www.instagram.com/coda.ce">
                         <WhatsAppOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
                             Faça parte da <strong className="text-(--primary-color)">Comunidade</strong>
