@@ -57,12 +57,12 @@ const Links = () => {
                 className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1}}
-                transition={{ duration: 1, delay: 2.6 }} 
+                transition={{ duration: 1, delay: 2.4 }} 
                 >
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
-                    href="https://github.com/chidekina/palestras">
+                    href="https://github.com/chidekina/trilha-do-conhecimento">
                         <GithubOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
                             Palestras
