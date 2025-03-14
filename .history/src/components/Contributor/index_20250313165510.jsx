@@ -1,0 +1,13 @@
+const Contributor = (pic, name) => {
+    return (
+        <div>
+            <img src={pic} />
+                <h2>{name}</h2>
+                <h3>{description}</h3>
+                <i class="devicon-github-original"></i>
+
+        </div>
+      );
+}
+ 
+export default Contributor;
