@@ -7,9 +7,9 @@ const Links = () => {
             <ul className="flex flex-col gap-10">
                 <motion.li 
                 className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1}}
-                transition={{ duration: 1, delay: 2 }} 
+                initial={{ opacity: 0, scale: 1, x: 100 }}
+                animate={{ opacity: 1, scale: 1, x: 0 }}
+                transition={{ duration: 1.0, delay: 0.5 }} 
                 >
                     <a
                         className="flex items-end gap-6"
@@ -21,12 +21,7 @@ const Links = () => {
                         </h1>
                     </a>
                 </motion.li>
-                <motion.li 
-                className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1}}
-                transition={{ duration: 1, delay: 2.2 }} 
-                >
+                <li className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4">
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
@@ -36,13 +31,8 @@ const Links = () => {
                             Faça parte da <strong className="text-(--primary-color)">Comunidade</strong>
                         </h1>
                     </a>
-                </motion.li>
-                <motion.li 
-                className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1}}
-                transition={{ duration: 1, delay: 2.4 }} 
-                >
+                </li>
+                <li className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4">
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
@@ -52,7 +42,7 @@ const Links = () => {
                             Trilha do Aprendizado<strong className="text-(--primary-color) max-lg:hidden"> - FullStack</strong>
                         </h1>
                     </a>
-                </motion.li>
+                </li>
             </ul>
         </div>
     );

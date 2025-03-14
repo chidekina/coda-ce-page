@@ -13,18 +13,18 @@ const Banner = () => {
                 O site da comunidade
             </motion.h1>
             <motion.div className="flex justify-center max-lg:"
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.0, delay: 1 }} 
+                initial={{ opacity: 0, scale: 1, y: 100 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 1.0, delay: 0.5 }} 
                 >
                 <img src={logo} className="w-232 max-lg:w-100" />
             </motion.div>
             <div className="flex justify-end">
                 <motion.h2 
                 className="text-4xl max-lg:text-center max-lg:text-2xl"
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1.0, delay: 1.5 }} 
+                initial={{ opacity: 0, scale: 1, y: 100 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 1.0, delay: 0.5 }} 
                 >
                     Feito especialmente para <strong className="text-(--secondary-color) font-bold">você</strong>, dev.
                 </motion.h2>

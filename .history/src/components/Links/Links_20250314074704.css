@@ -1,0 +1,14 @@
+@keyframes fromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-from-right {
+    animation: fromRight 0.5s ease-out;
+}
