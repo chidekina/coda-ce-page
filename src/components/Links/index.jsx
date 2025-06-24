@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { InstagramOutlined, WhatsAppOutlined, GithubOutlined } from "@ant-design/icons";
+import { InstagramOutlined, WhatsAppOutlined, GithubOutlined, LinkedinOutlined, CodeOutlined } from "@ant-design/icons";
 
 const Links = () => {
     return (
@@ -46,8 +46,8 @@ const Links = () => {
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
-                    href="https://github.com/chidekina/trilha-do-conhecimento">
-                        <GithubOutlined className="text-5xl max-lg:text-3xl" />
+                    href="https://impartial-switch-0da.notion.site/seja-full-stack?pvs=74">
+                        <CodeOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
                             Trilha do Aprendizado<strong className="text-(--primary-color) max-lg:hidden"> - FullStack</strong>
                         </h1>
@@ -66,6 +66,22 @@ const Links = () => {
                         <GithubOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
                             Palestras
+                        </h1>
+                    </a>
+                </motion.li>
+                <motion.li 
+                className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1}}
+                transition={{ duration: 1, delay: 2.6 }} 
+                >
+                    <a 
+                    className="flex gap-6"
+                    target="_blank" 
+                    href="https://www.linkedin.com/pulse/o-gera%C3%A7%C3%A3o-tech-acabou-e-agora-cesar-hideki-nagano-pz8vf/?trackingId=0C0P3FtuHHz9sxT1VaXdvQ%3D%3D">
+                        <LinkedinOutlined className="text-5xl max-lg:text-3xl" />
+                        <h1 className="text-4xl max-lg:text-xl">
+                             O Geração Tech acabou! E agora?! 
                         </h1>
                     </a>
                 </motion.li>
