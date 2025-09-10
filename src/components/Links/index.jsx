@@ -62,10 +62,10 @@ const Links = () => {
                     <a 
                     className="flex items-end gap-6"
                     target="_blank" 
-                    href="https://github.com/chidekina/palestras">
+                    href="https://forms.gle/kfSv2FEy7JbxqK337">
                         <FormOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
-                            Camisas <strong className="text-(--primary-color) max-lg:hidden">Coda.ce</strong>
+                            Produtos <strong className="text-(--primary-color) max-lg:hidden">Coda.ce</strong>
                         </h1>
                     </a>
                 </motion.li>
@@ -78,10 +78,10 @@ const Links = () => {
                     <a 
                     className="flex gap-6"
                     target="_blank" 
-                    href="https://www.linkedin.com/pulse/o-gera%C3%A7%C3%A3o-tech-acabou-e-agora-cesar-hideki-nagano-pz8vf/?trackingId=0C0P3FtuHHz9sxT1VaXdvQ%3D%3D">
+                    href="https://forms.gle/RL5bSLqt8NwL6zzg6">
                         <FormOutlined className="text-5xl max-lg:text-3xl" />
                              <h1 className="text-4xl max-lg:text-xl">
-                            Bonés <strong className="text-(--primary-color) max-lg:hidden">Coda.ce</strong>
+                            Seja <strong className="text-(--primary-color) max-lg:hidden">palestrante</strong>
                         </h1>
                     </a>
                 </motion.li>
