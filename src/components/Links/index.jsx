@@ -3,7 +3,7 @@ import { InstagramOutlined, WhatsAppOutlined, LinkedinOutlined, FormOutlined } f
 
 const Links = () => {
     return (
-        <div className="flex px-32 justify-center max-lg:px-6">
+        <div className="flex px-32 justify-center max-lg:px-6 pb-16">
             <ul className="flex flex-col gap-10">
                 <motion.li 
                 className="border-4 rounded-3xl w-228 px-12 py-8 hover:scale-105 transition-transform duration-200 max-lg:px-3 max-lg:w-88 max-lg:py-4"
