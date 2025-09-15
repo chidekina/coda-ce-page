@@ -49,7 +49,7 @@ const Links = () => {
                     href="https://www.linkedin.com/company/coda-ce/">
                         <LinkedinOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
-                            Siga nosso <strong className="text-(--primary-color) max-lg:hidden">LinkedIn</strong>
+                            Siga nosso <strong className="text-(--primary-color)" >LinkedIn</strong>
                         </h1>
                     </a>
                 </motion.li>
@@ -65,7 +65,7 @@ const Links = () => {
                     href="https://forms.gle/kfSv2FEy7JbxqK337">
                         <FormOutlined className="text-5xl max-lg:text-3xl" />
                         <h1 className="text-4xl max-lg:text-xl">
-                            Produtos <strong className="text-(--primary-color) max-lg:hidden">Coda.ce</strong>
+                            Produtos <strong className="text-(--primary-color)">Coda.ce</strong>
                         </h1>
                     </a>
                 </motion.li>
@@ -81,7 +81,7 @@ const Links = () => {
                     href="https://forms.gle/RL5bSLqt8NwL6zzg6">
                         <FormOutlined className="text-5xl max-lg:text-3xl" />
                              <h1 className="text-4xl max-lg:text-xl">
-                            Seja <strong className="text-(--primary-color) max-lg:hidden">palestrante</strong>
+                            Seja <strong className="text-(--primary-color)">palestrante</strong>
                         </h1>
                     </a>
                 </motion.li>
